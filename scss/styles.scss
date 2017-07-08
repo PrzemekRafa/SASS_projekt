@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'mixins';
+
+html, body {
+    font-family: $main-font-family;
+}
+
+@import 'header';
+@import 'section';
+@import 'footer';

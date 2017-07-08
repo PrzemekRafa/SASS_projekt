@@ -1,0 +1,12 @@
+@import 'variables';
+
+@mixin pad_marg ($pad, $marg) {
+    padding: $pad;
+    margin: $marg;
+}
+
+@mixin fifty_fifty_float {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
